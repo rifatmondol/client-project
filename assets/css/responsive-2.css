@@ -1,0 +1,416 @@
+/********************************************************/
+/* Max-Width 1200PX     *********************************/
+/********************************************************/
+@media (max-width: 1200px) {
+	.slider-heading {
+        left: 23%;
+    }
+    .footer-item{
+        width: 42%;
+    }
+    .copyright p {
+    font-size: 12px;
+    }
+    .footer-item .txt-1 {
+    font-size: 11px;
+    margin-right: 5px;
+    }
+    .heading-area2,.heading-area-right{
+        height: 100vh;
+    }
+    .footer-item .footer-btn {
+        margin-left: 9%;
+    }
+
+}
+
+
+/********************************************************/
+/* Min-Width 993PX     **********************************/
+/********************************************************/
+@media (min-width: 991px) {
+
+}
+
+
+
+/********************************************************/
+/* Max-Width 991PX     **********************************/
+/********************************************************/
+@media (max-width: 992px) {
+    .container {
+        width: 915px;
+    }
+    .slider-heading {
+        left: 23%;
+    }
+    .heading-area2 p {
+        margin: 25px 5px 36px 41px;
+    }
+    .img1 img {
+        margin-bottom: 99px;
+    }
+    .creative-header img {
+        margin: 40px 0px 57px 24px;
+    }
+    .creative-header, .creative-header2 {
+        height: 100vh;
+    }
+
+}
+
+
+/********************************************************/
+/* Max-Width 767PX     **********************************/
+/********************************************************/
+@media (max-width: 768px) {
+    .slider-heading h1 {
+        font-size: 28px;
+    }
+    .container {
+        width: 697px;
+    }
+    .img1 img {
+        margin-bottom: 184px;
+    }
+    .creative-header img {
+        margin: 40px 0px 259px 24px;
+    }
+    .footer-item {
+    height: 250px;
+}
+    .footer-item h3 {
+    font-size: 27px;
+  }
+    .footer-item p {
+    font-size: 19px;
+  }
+  .footer-item input {
+    width: 77%;
+    margin-left: 25px;
+    font-size: 17px;
+}
+    .footer-item .txt-1 {
+    font-size: 14px;
+  }
+  .footer-item a {
+    font-size: 19px;
+    margin-left: 30px;
+}
+  .footer-item .footer-btn {
+    padding: 8px 17px;
+    margin-left: 9%;
+    margin-top: -7px;
+}
+  .ml-2 {
+    margin-left: 0px;
+}
+  .ml-0,.mr-0{
+    float: right;
+    margin-right: 30px;
+  }
+	  .copyright {
+	    margin-top: 10px!important;
+	  }
+
+}
+
+
+
+/********************************************************/
+/* Max-Width 576PX     **********************************/
+/********************************************************/
+@media (max-width: 576px) {
+    .slider-heading {
+        left: 13%;
+    }
+    .container {
+        width: 533px;
+    }
+    .what-we-do-heading p {
+        font-size: 19px;
+    }
+    .help-heading-left {
+        width: 100%;
+    }
+    .help-heading-right {
+        width: 68%;
+    }
+    .help-heading-right img {
+        width: 100%;
+        margin-left: 90px;
+    }
+    .help-heading-main {
+        display: inline-block;
+    }
+    .growth-heading-main {
+        display: inline-block;
+    }
+    .growth-heading-left {
+        width: 100%;
+    }
+    .growth-heading-right {
+        width: 100%;
+    }
+    .growth-heading-right img {
+        width: 75%;
+        margin-left: 63px;
+    }
+    .research-area-main {
+        display: inline-block;
+    }
+    .research-area-left {
+        width: 100%;
+    }
+    .research-area-right {
+        width: 100%;
+    }
+    .heading-area-right {
+        margin-left: 1px;
+    }
+    .img1 img {
+        margin-bottom: 33px;
+    }
+    .right-img img {
+        margin-top: 35px;
+    }
+    .heading-area-right h1 {
+        font-size: 22px;
+    }
+    .creative-thinking-area-main {
+        display: inline-block;
+    }
+    .creative-thinking-area-left {
+        width: 100%;
+    }
+    .creative-header img {
+        margin: 40px 0px 21px 24px;
+    }
+    .creative-thinking-area-right {
+      width: 100%;
+    }
+    .creative-header2 {
+      margin-left: 0px;
+    }
+    .slider-heading {
+      top: 18%;
+    }
+    .creative-header, .creative-header2,.heading-area2, .heading-area-right {
+      height: 115vh;
+    }
+    .footer-item .footer-btn {
+    margin-left: 7%;
+  }
+  .footer-item a {
+    margin-left: 30px;
+  }
+  .footer-item input {
+    height: 40px;
+    font-size: 20px;
+  }
+  .footer-item p {
+      font-size: 20px;
+  }
+    
+}
+
+
+/* ===========Max width 480px ==========*/
+@media (max-width: 480px) {
+    .container {
+        width: 87%!important;
+    }
+    .logo {
+        width: 500px;
+    }
+    .container-main .header {
+        padding: 60px 0px 60px 0px;
+    }
+    .toggle {
+      display: block;
+      position: relative;
+      font-size: 50px;
+    }
+    .active {
+        display: block;
+        width: 85%;
+        margin: 0 auto;
+    }
+    nav ul {
+        width: 100%;
+        text-align: center;
+        display: block;
+        position: relative;
+        top: -30px;
+    }
+
+    nav ul li{
+        display: none;
+    } 
+    nav ul li a:hover{
+        background-color: #BE1622;
+        color: #fff;
+    }
+    nav ul li a{
+        font-size:30px;
+    }
+    .heading h1 {
+        font-size: 45px;
+    }
+    .heading button.bt {
+        padding: 20px 36px;
+        font-size: 25px;
+    }
+    .what-we-do-heading h1 {
+        font-size: 45px;
+        margin-bottom: 15px;
+    }   
+    .what-we-do-heading p {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .creative-header, .creative-header2, .heading-area2, .heading-area-right {
+        height: 170vh;
+    }
+    .help-heading-left h2 {
+    font-size: 35px;
+    }
+    .help-heading-left ul li {
+        font-size: 28px;
+    }
+    .help-heading-right {
+        width: 70%;
+        margin-top: 25px;
+    }
+    .help-heading-right img {
+        width: 100%;
+        margin-left: 17%;
+    }
+    .growth-heading-left h2 {
+        font-size: 35px;
+    }
+    .growth-heading-left ul li {
+        font-size: 26px;
+    }
+    .growth-heading-right img {
+        width: 70%;
+        margin-left: 14%;
+        margin-top: 30px;
+    }
+    .heading-area2 p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .heading-area2 p span {
+        font-size: 25px;
+    }
+    .heading-area2 ul li {
+        font-size: 25px;
+        margin-left: 10%;
+    }
+    .heading-area-right p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .heading-area-right ul li {
+        font-size: 25px;
+        line-height: 35px;
+        margin-left: 6%;
+    }
+    .creative-header p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .creative-header ul li {
+        font-size: 30px;
+    }
+    .right-img img {
+        margin-left: 47%;
+    }
+    .creative-header2 p {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .creative-header2 ul li {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .creative-header2 img {
+        width: 100%;
+    }
+    .heading-area-right h2 {
+        font-size: 33px;
+    }
+    .heading-area2 h1,.heading-area-right h1,.creative-header h1,.creative-header2 h1{
+        font-size: 40px;
+    }
+      .footer-main {
+    display: inline-block;
+  }
+    .footer-item {
+    width: 95%;
+    height: 325px;
+    text-align: center;
+    }
+    .footer-item h3 {
+    font-size: 50px;
+    margin-left: 0;
+    }
+    .footer-item p {
+    font-size: 25px;
+    }
+    .footer-item .footer-btn {
+    padding: 20px 25px;
+    margin-left: 0;
+    font-size: 25px;
+    margin-top: 10px;
+    }
+    .footer-item input {
+    height: 55px;
+    width: 45%;
+    font-size: 20px;
+    }
+    .footer-item .txt-1 {
+    font-size: 24px;
+    width: 95%;
+    margin: 0 auto;
+    }
+    .footer-item a {
+    font-size: 30px;
+    margin: 0 auto;
+    }
+    .ml-2 {
+    margin-right: 25px;
+    float: right;
+  }
+  .ml-0,.mr-0{
+    float: left;
+    margin-left: 25px;
+  }
+    .contact-btn, .copyright p, .footer-item .footer-btn {
+    font-size: 28px;
+    }
+  .input {
+    font-size: 30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

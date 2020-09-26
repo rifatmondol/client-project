@@ -1,0 +1,322 @@
+/*============= Responsive media query =====================*/
+/*-------- 1200px -------------*/
+@media(max-width: 1200px){
+	.item img{
+		position: relative;
+	}
+	.item .btn-2 {
+    left: 76%!important;
+	}
+	.item p {
+    right: 10%;
+	}
+  .footer-item{
+    width: 42%;
+  }
+  .footer-item input {
+    width: 83%
+  }
+	.copyright p {
+    font-size: 12px;
+	}
+	.footer-item .txt-1 {
+    font-size: 11px;
+    margin-right: 5px;
+}
+.footer-item .footer-btn {
+    margin-left: 9%;
+}
+/*-------- 1200px -------------*/
+
+/*-------- 992px -------------*/
+@media(max-width: 992px){
+	.item h1{
+		font-size: 30px;
+	}
+	.item .btn{
+		top: 65%;
+		left: 44%;
+	}
+}
+/*-------- 992px -------------*/
+
+@media(min-width: 991px){
+
+}
+/*-------- 768px -------------*/
+@media(max-width: 768px){
+	.article-section p {
+    font-size: 17px;
+	}
+	.article-left p {
+    font-size: 21px;
+  }
+  .article-left .article-left-header {
+    font-size: 23px;
+}
+.article-right-2 .article-right-header {
+    font-size: 23px;
+}
+  .article-right img {
+    height: 350px;
+}
+  .contact-us p {
+    font-size: 23px;
+  }
+  .contact-us h3 {
+    font-size: 26px;
+  }
+  input {
+    height: 35px;
+    font-size: 23px;
+}
+  form p,label,.contact-btn,.copyright p,.footer-item .footer-btn  {
+    font-size: 20px;
+  }
+  .container .article-section p {
+    font-size: 21px;
+}
+  .footer-item {
+    height: 250px;
+}
+	.footer-item h3 {
+    font-size: 27px;
+  }
+	.footer-item p {
+    font-size: 19px;
+  }
+  .footer-item input {
+    width: 77%;
+    margin-left: 25px;
+    font-size: 17px;
+}
+	.footer-item .txt-1 {
+    font-size: 14px;
+  }
+  .footer-item a {
+    font-size: 19px;
+    margin-left: 30px;
+}
+  .footer-item .footer-btn {
+    padding: 8px 17px;
+    margin-left: 9%;
+    margin-top: -7px;
+}
+  .ml-2 {
+    margin-left: 0px;
+}
+  .ml-0,.mr-0{
+    float: right;
+    margin-right: 30px;
+  }
+	.copyright {
+		margin-top: 10px!important;
+	}
+}
+/*-------- 768px -------------*/
+
+/*-------- 576px -------------*/
+@media(max-width: 576px){
+  .footer-item .footer-btn {
+    margin-left: 7%;
+  }
+  .footer-item a {
+    margin-left: 30px;
+  }
+  .footer-item input {
+    height: 40px;
+    font-size: 20px;
+  }
+  .footer-item p {
+      font-size: 20px;
+  }
+  .container .article-section p {
+    font-size: 23px;
+}
+.article-left p {
+    font-size: 23px;
+}
+.article-right img {
+    height: 80vh;
+}
+.article-right {
+    width: 50%;
+    height: 100vh;
+}
+}
+
+/*-------- 576px -------------*/
+
+/*-------- 480px -------------*/
+@media(max-width: 480px){
+	.container-main .header {
+    padding: 60px 0px 60px 60px;
+	}
+	.container-main .container {
+    width: 95%;
+  }
+  .toggle {
+    display: block;
+    position: relative;
+    font-size: 50px;
+	}
+	.active {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+}
+	nav ul {
+    width: 100%;
+    text-align: center;
+    display: block;
+    position: relative;
+    top: -60px;
+}
+
+	nav ul li{
+		display: none;
+	}
+	nav ul li a{
+		font-size:30px;
+	}
+  .contact-form-main {
+    display: inline-block;
+}
+.contact-form-main .left, .contact-form-main .right{
+    width: 100%;
+    margin-left: 32%;
+	}
+	form p, label, .contact-btn, .copyright p, .footer-item .footer-btn {
+    font-size: 28px;
+	}
+	input {
+		width: 100%;
+    height: 50px;
+  }
+  .contact-us h2 {
+    font-size: 40px;
+	}
+  .contact-us h3 {
+    font-size: 35px;
+  }
+  .contact-us p {
+    font-size: 33px;
+	}
+	.contact-us a {
+    font-size: 25px;
+	}
+	.logo {
+    margin: 20px;
+    width: 500px;
+	}
+	#pin-class {
+    width: 100px;
+	}
+	.item .btn {
+    font-size: 30px;
+    left: 41%;
+}
+	.item .btn-2 {
+    left: 64%!important;
+    top: 55%!important;
+}
+	.item h1 {
+    font-size: 45px;
+    top: 17%;
+}
+	.item p {
+    font-size: 25px;
+	}
+	.container .article-section h2 {
+    font-size: 60px;
+	}
+	.container .article-section h3 {
+    font-size: 40px;
+  }
+  .container .article-section span {
+    font-size: 45px;
+	}
+  .container .article-section p {
+    font-size: 30px;
+    line-height: 40px;
+	}
+	.article-left p {
+    font-size: 30px;
+    margin-top: 0px;
+}
+	.article-right-2 .article-right-header {
+    font-size: 40px;
+}
+	.article-left .article-left-header {
+    font-size: 35px;
+}
+	.article-left .txt-2 {
+    margin-top: 30px;
+	}
+	.article-left .txt-2 ,.article-right-2 .article-right-header,.article-left p,.article-left .article-left-header {
+		margin-left: 25px;
+	}
+	.article-right {
+    width: 100%;
+    height: 500px;
+	}
+	.article-right img {
+    height: 100%;
+    margin-left: 25px;
+	}
+	.article-main {
+    display: inline-block;
+	}
+	.article-left {
+    width: 100%;
+	}
+  .footer-main {
+    display: inline-block;
+  }
+	.footer-item {
+    width: 95%;
+    height: 325px;
+    text-align: center;
+	}
+	.footer-item h3 {
+    font-size: 50px;
+    margin-left: 0;
+	}
+	.footer-item p {
+    font-size: 25px;
+	}
+	.footer-item .footer-btn {
+    padding: 20px 25px;
+    margin-left: 0;
+    font-size: 25px;
+    margin-top: 10px;
+	}
+	.footer-item input {
+    height: 55px;
+    width: 45%;
+    font-size: 20px;
+	}
+	.footer-item .txt-1 {
+    font-size: 24px;
+    width: 95%;
+    margin: 0 auto;
+	}
+	.footer-item a {
+    font-size: 30px;
+    margin: 0 auto;
+	}
+	.ml-2 {
+    margin-right: 25px;
+    float: right;
+  }
+  .ml-0,.mr-0{
+    float: left;
+    margin-left: 25px;
+  }
+	.contact-btn, .copyright p, .footer-item .footer-btn {
+    font-size: 28px;
+	}
+  .input {
+    font-size: 30px;
+}
+/*-------- 480px -------------*/
